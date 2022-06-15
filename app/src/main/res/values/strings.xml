@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BottomSheetAppExample</string>
+    <string name="add">add</string>
+    <string name="fab">fab</string>
+</resources>
