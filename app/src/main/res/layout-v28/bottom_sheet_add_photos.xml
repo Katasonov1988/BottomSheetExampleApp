@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/modalBottomSheetContainer"
+    android:padding="15dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/app_name"
+        android:text="Добавить фото"
+        android:textSize="14sp"
+        android:lineHeight="20dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="16dp"
+        android:textColor="#99000000"
+        />
+    <LinearLayout
+        android:id="@+id/takePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingStart="18dp"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:src="@drawable/ic_baseline_photo_camera_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_gravity="center"
+            android:text="Сделать фото"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/choseFromGallery"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingStart="18dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_photo_library_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_gravity="center"
+            android:text="Выбрать из галереи"/>
+    </LinearLayout>
+
+
+</LinearLayout>
