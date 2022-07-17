@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/layout/activity_main.xml" value="0.2791666666666667" />
-        <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/layout/bottom_sheet_add_photos.xml" value="0.2791666666666667" />
+        <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/layout-v28/bottom_sheet_add_photos.xml" value="0.1" />
+        <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/layout/bottom_sheet_add_photos.xml" value="0.5811170212765957" />
         <entry key="..\:/Android_studio_project/bottomSheetExampleApp-main/app/src/main/res/menu/bottom_app_bar.xml" value="0.2791666666666667" />
         <entry key="..\:/android_studio_project/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/android_studio_project/app/src/main/res/layout/bottom_sheet_add_photos.xml" value="0.11041666666666666" />

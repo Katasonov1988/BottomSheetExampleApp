@@ -1,63 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/modalBottomSheetContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
-    android:id="@+id/modalBottomSheetContainer"
-    android:background="@color/white">
+    android:padding="@dimen/linearLayoutPadding">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/linearLayoutMarginStart"
+        android:layout_marginTop="@dimen/textViewMargin"
+        android:layout_marginBottom="@dimen/textViewMargin"
         android:fontFamily="@string/app_name"
-        android:text="Добавить фото"
-        android:textSize="14dp"
-        android:lineHeight="20dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginStart="16dp"
-        android:textColor="#99000000"
-        />
+        android:text="@string/add_picture"
+        android:textSize="@dimen/textViewSize" />
+
     <LinearLayout
         android:id="@+id/takePhoto"
+        style="@style/LinearLayoutStyle"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:paddingStart="18dp"
-        android:orientation="horizontal"
-        tools:ignore="RtlSymmetry">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        android:layout_height="@dimen/linearLayoutLayoutHeight">
 
-            android:src="@drawable/ic_baseline_photo_camera_24"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_gravity="center"
-            android:text="Сделать фото"/>
+            android:drawableStart="@drawable/ic_baseline_photo_camera_24"
+            android:drawablePadding="@dimen/margin"
+            android:text="@string/take_photo"
+            tools:ignore="UseCompatTextViewDrawableXml" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/choseFromGallery"
+        style="@style/LinearLayoutStyle"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:paddingStart="18dp"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_baseline_photo_library_24"/>
+        android:layout_height="@dimen/linearLayoutLayoutHeight">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_gravity="center"
-            android:text="Выбрать из галереи"/>
+            android:drawableStart="@drawable/ic_baseline_photo_library_24"
+            android:drawablePadding="@dimen/margin"
+            android:text="@string/take_from_gallery"
+            tools:ignore="UseCompatTextViewDrawableXml" />
     </LinearLayout>
 
 

@@ -2,4 +2,8 @@
     <string name="app_name">BottomSheetAppExample</string>
     <string name="add">add</string>
     <string name="fab">fab</string>
+    <string name="take_photo">сделать фото</string>
+    <string name="take_from_gallery">Выбрать из галереи</string>
+    <string name="add_picture">Добавить изображение</string>
+
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation">12dp</dimen>
+    <dimen name="margin">40dp</dimen>
+    <dimen name="linearLayoutLayoutHeight">48dp</dimen>
+    <dimen name="linearLayoutPadding">15dp</dimen>
+    <dimen name="textViewMargin">14dp</dimen>
+    <dimen name="textViewSize">14sp</dimen>
+    <dimen name="linearLayoutMarginStart">18dp</dimen>
+
+</resources>
